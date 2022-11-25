@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body, html {
+    background-color: #2b2b2b;
+    font: normal 15pt arial;
+}
+
+header {
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+section {
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 600px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.226);
+}
+
+#area_do_ano {
+    padding-bottom: 25px;
+    padding-top: 10px;
+}
+
+#txtano {
+    background-color: rgb(255, 115, 0);
+    color: white;
+    font-size: 1.1em;
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.39);
+    border-radius: 5px;
+    outline: none;
+}
+
+#verificador {
+    background-image: linear-gradient(to right, rgb(255, 72, 0), rgb(255, 136, 0), rgb(255, 195, 30));
+    color: white;
+    font-size: 0.9em;
+    width: 150px;
+    padding: 16px;
+    margin-left: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#res {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+#foto {
+    padding-top: 30px;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    padding-bottom: 20px;
+}
+
+footer > p > a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
